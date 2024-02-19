@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/clouds.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Punk</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="card" data-tilt >
+
+            <div class="search">
+                <input type="text" id="searchbox" placeholder="Enter city">
+                <button id="searchbtn"><img src="images/search.png"></button>
+            </div>
+            <p class="error">Enter a valid city</p>
+            <div class="details">
+                <img src="images/clouds.png" class="weather-icon">
+                <p id="condition">Smoke</p>
+                <h1 class="temp">23°c</h1>
+                <h2 class="city">Mumbai</h2>
+
+                <div class="moredetails">
+                    <div class="megacol">
+                        <div class="col">
+                            <img src="images/humidity.png">
+                            <p class="humidity">40%</p>
+                        </div>
+                        <p class="megacoltext1">Humidity</p>
+                    </div>
+                   <div class="megacol">
+                    <div class="col">
+                        <img src="images/wind.png">
+                        <p class="wind">3km/h</p>
+                    </div>
+                    <p class="megacoltext2">Wind Speed</p>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="tilter.js"></script>
+</html>
